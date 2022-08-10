@@ -1,0 +1,58 @@
+body {
+    background:linear-gradient(90deg, rgba(246, 145, 47, 0.5), rgba(245, 48, 0, 1), rgba(246, 145, 47, 0.5)), repeating-linear-gradient(rgba(246, 145, 47, 0.5), rgba(246, 145, 47, 0.5) 12px, rgba(245, 48, 0, 1) 12px, rgba(245, 48, 0, 1) 17px);
+    font-family: 'Open Sans', sans-serif;
+    height: 950px;
+}
+section {
+    max-width: 500px;
+    min-width: 350px;
+    min-height: 300px;
+    background-color: rgb(221, 221, 221);
+    margin: auto;
+    margin-top: 300px;
+}
+button img {
+    margin: 5px 1px;
+}
+section div div .bg-col-red {
+    width: 55px;
+}
+section div div img {
+    width: 35px;
+    height: 35px;
+    margin: 10px 10px;
+}
+section div img:last-child {
+    background: none;
+}
+section div span,a{
+    color: white;
+}
+section button {
+    border: none;
+    color: white;
+}
+h1 {
+    font-size: 38px;
+}
+.bg-col-red {
+    background-color: rgb(255, 57, 57);
+}
+.position-absolute {
+    top: 15px;
+    right: 10%;
+}
+.justify-content-between {
+    max-width: 87%;
+    height: 73px;
+}
+.bt-sing {
+    height: 55px;
+    width: 30%;
+    min-width: 90px;
+    font-size: 25px;
+}
+div div div input {
+    width: 20px;
+    height: 20px;
+}

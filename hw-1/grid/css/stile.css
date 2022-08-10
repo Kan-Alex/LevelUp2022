@@ -1,0 +1,31 @@
+body {
+    padding: 5px;
+}
+.section {
+    display: grid;
+    grid-gap: 5px;
+    max-width: 815px;
+    margin: auto;
+}
+.container {
+    display: grid;
+    grid-gap: 5px;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
+}
+.box {
+    width: 200px;
+    height: 200px;
+}
+.bg-success {
+    background-color: #198754;
+}
+.bg-danger {
+    background-color: #dc3545;
+}
+.bg-warning {
+    background-color: #ffc107;
+}
+.bg-info {
+    background-color: #0dcaf0;
+}

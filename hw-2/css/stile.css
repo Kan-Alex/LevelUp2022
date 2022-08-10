@@ -1,0 +1,246 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-image:url(../img/bg.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #0B1D26;
+    color: white;
+}
+a {
+    color: white;
+}
+a:hover {
+    color: white;
+}
+ul li {
+    list-style-type: none;
+}
+header {
+    min-height: 1300px;
+}
+.social {
+    top: 50%;
+    transform: translateY(-50%);
+    left: 48px;
+}
+.navigation {
+    top: 50%;
+    transform: translateY(-50%);
+    right: 48px;
+}
+.navigation ul li {
+    padding-right: 30px;
+    height: 60px;
+    line-height: 60px;
+}
+.social .t-follow {
+    writing-mode: vertical-rl;
+}
+.number {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 240px;
+    font-weight: 700;
+    opacity: 0.1;
+}
+section {
+    margin-bottom: 200px;
+}
+section h3::before {
+    content: "";
+    border-top: 2px #FBD784 solid;
+    width: 70px;
+    position: absolute;
+    top: 58px;
+    left: 0;
+}
+section h2 {
+    font-family: Chronicle Display;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+}
+p {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+}
+h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FBD784;
+}
+section h3 {
+    margin-left: 90px;
+    letter-spacing: 6px;
+}
+section div div {
+    width: 45%;
+}
+button {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FBD784;
+    background: none;
+    border: none;
+}
+button img {
+    margin-left: 15px;
+}
+footer {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 80px;
+}
+footer div p {
+    max-width: 300px;
+}
+footer ul {
+    padding-left: 0;
+}
+nav {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+@media screen 
+and (min-width: 1200px) 
+and (max-width: 1485px) {
+    header {
+        min-height: 1100px;
+    }
+    .number {
+        font-size: 220px;
+    }
+    .photo {
+        max-width: 90%;
+        height: auto;
+    }
+    section h2 {
+        font-size: 58px;
+        line-height: 70px;
+    }
+}
+@media screen 
+and (min-width: 1090px) 
+and (max-width: 1199px) {
+    header {
+        min-height: 1000px;
+    }
+    .number {
+        font-size: 200px;
+    }
+    .photo {
+        max-width: 90%;
+        height: auto;
+    }
+    section h2 {
+        font-size: 50px;
+        line-height: 65px;
+    }
+    p {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
+@media screen 
+and (min-width: 900px) 
+and (max-width: 1089px) {
+    header {
+        min-height: 800px;
+    }
+    .number {
+        font-size: 180px;
+    }
+    .photo {
+        max-width: 100%;
+        height: auto;
+    }
+    section h2 {
+        font-size: 45px;
+        line-height: 58px;
+    }
+    p {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .navigation {
+        right: 25px;
+    }
+    .navigation ul li {
+        padding-right: 25px;
+    }
+    .social {
+        left: 25px;
+    }
+}
+@media screen 
+and (min-width: 750px)
+and (max-width: 899px) {
+    header {
+        min-height: 700px;
+    }
+    .number {
+        font-size: 160px;
+    }
+    .photo {
+        max-width: 100%;
+        height: auto;
+    }
+    section h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    p {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .navigation {
+        right: 15px;
+    }
+    .navigation ul li {
+        padding-right: 20px;
+    }
+    .social {
+        left: 15px;
+    }
+}
+@media screen 
+and (max-width: 749px) {
+    header {
+        min-height: 500px;
+    }
+    .number {
+        font-size: 140px;
+    }
+    .photo {
+        max-width: 100%;
+        height: auto;
+    }
+    section h2 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    p {
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .navigation {
+        right: 10px;
+    }
+    .navigation ul li {
+        padding-right: 15px;
+    }
+    .social {
+        left: 10px;
+    }
+}

@@ -1,0 +1,26 @@
+.bg {
+    background: no-repeat fixed linear-gradient(50deg,#ff8686, #b0b7ff);
+}
+li {
+    list-style: none;
+}
+.t-center {
+    text-align: center;
+}
+.btn-l {
+    background-color: #ced4da;
+    border: 2px solid #ced4da;
+    border-radius: 30px;
+    font-size: 16px;
+    padding: 15px 20px;
+}
+.btn-l:hover {
+    transition-duration: 0.6s;
+    background-color: white;
+    border: 2px solid #ced4da;
+    cursor: pointer;
+}
+.btn-l:active{
+    transition-duration: 0.1s;
+    border: 2px solid gray;
+}
