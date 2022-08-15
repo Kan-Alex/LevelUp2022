@@ -13,3 +13,18 @@ for (const word of words) {
     }
 
 }
+// Array.prototype.abriviatur = function() {
+//     for (const word of this) {
+                       
+//         const interval = word.length - 2
+    
+//         function lastletter(arr) {
+//             return arr[arr.length - 1]
+//         }
+        
+//         if(word.length > 10) {
+//             console.log(word[0] + interval + lastletter(word))
+//         }
+    
+//     }
+// }
