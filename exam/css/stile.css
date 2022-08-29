@@ -1,0 +1,250 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: #F8F8F8;
+}
+p {
+    color: #4F5665;
+    font-size: 16px;
+    line-height: 30px;
+}
+ul li {
+    color: #4F5665;
+}
+h1,h2,h3 {
+    color: #0B132A;
+}
+button {
+    border: none;
+    background-color: #F8F8F8;
+}
+.coment {
+    color: #0B132A;
+}
+.font-sz-25 {
+    font-size: 25px;
+}
+.font-sz-20 {
+    font-size: 20px;
+}
+.font-sz-14 {
+    font-size: 14px;
+}
+ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+h1 {
+    font-size: 50px;
+    line-height: 70px;
+}
+h2 {
+    font-size: 35px;
+    line-height: 50px;
+}
+.my-20 {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.my-10 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.mt-10 {
+    margin-top: 100px;
+}
+.mt-8 {
+    margin-top: 80px;
+}
+.ms-15 {
+    margin-left: 150px;
+}
+.px-6 {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.px-7 {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.w-70 {
+    width: 70%;
+}
+.w-55 {
+    width: 55%;
+}
+.w-30 {
+    width: 30%;
+}
+.w-55p {
+    max-width: 550px;
+}
+.w-42p {
+    max-width: 420px;
+}
+.w-38p {
+    max-width: 380px;
+}
+.w-18 {
+    width: 18%;
+}
+.h-12p {
+    height: 100px;
+}
+.circle-btn {
+    width: 55px;
+    height: 55px;
+}
+.circle-link {
+    width: 33px;
+    height: 33px;
+}
+@media screen 
+and (min-width: 1400px) {
+    .sect-1:last-child {
+        width: 50%;
+    }
+    .sect-1 div:last-child img {
+        width: 100%;
+    }
+    .sect-3 div:first-child {
+        width: 40%;
+    }
+}
+@media screen  
+and (max-width: 1400px) {
+    .sect-6 div .coment-3 {
+        display: none;
+    }
+}
+@media screen  
+and (max-width: 1024px) {
+    header .navigate div {
+        display: none;
+    }
+    .sect-6 div .coment-2 {
+        display: none;
+    }
+    .sect-6 div .w-30 {
+        width: 100%;
+    }
+}
+@media screen 
+and (min-width: 1025px) 
+and (max-width: 1400px) {
+    .sect-6 div .w-30 {
+        width: 45%;
+    }
+    .sect-1 div {
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 50%;
+    }
+    .sect-1:last-child {
+        margin: 0 20px;
+        width: 50%;
+    }
+    .sect-1 div img {
+        width: 100%;
+    }
+    .sect-3 div:first-child {
+        margin: 100px auto;
+        width: 50%;
+    }
+    .sect-3 div:first-child img {
+        width: 100%;
+    }
+}
+@media screen 
+and (max-width: 992px) {
+    .sect-1 div:first-child {
+        margin: 30px auto;
+    }
+    .sect-1 div .center-btn{
+        width: 230px !important;
+        margin: 20px auto !important;
+    }
+    .sect-2 {
+        width: 300px;
+    }
+    .sect-2 .border-end {
+        display: none;
+    }
+    .sect-2 div {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .sect-3 div:last-child {
+        margin: 30px auto;
+    }
+    footer {
+        flex-direction: column-reverse;
+
+    }
+    footer .w-30 {
+        width: 50%;
+        margin: auto;
+    }
+    footer .w-55 {
+        width: 70%;
+        margin: 50px auto;
+    }
+    
+    .sect-7 div:last-child {
+        max-width: 255px;
+        margin: 20px auto;
+    }
+}
+@media screen 
+and (max-width: 1200px) {
+    .sect-4 div .w-30 {
+        width: 300px;
+        margin: 20px auto;
+    }
+}
+@media screen 
+and (min-width: 1200px) {
+    .sect-4 div .w-30 {
+        width: 300px;
+        margin: 20px 60px;
+    }
+}
+@media screen 
+and (min-width: 300px) 
+and (max-width: 1024px) {
+    .sect-1 div:last-child {
+        margin: 100px auto;
+        width: 60%;
+    }
+    .sect-1 div img {
+        width: 100%;
+    }
+    .sect-3 div:first-child {
+        margin: 100px auto;
+        width: 60%;
+    }
+    .sect-3 div:first-child img {
+        width: 100%;
+    }
+}
+@media screen 
+and (max-width: 500px) {
+    .sect-7 div:last-child .px-7{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .sect-7 div:last-child{
+        max-width: 150px;
+        margin: 20px auto;
+    }
+    .sect-7.w-70 {
+        width: 80% !important;
+    }
+    .sect-6 div:first-child div:first-child img.person-foto {
+        width: 50px;
+        height: 50px;
+    }
+    footer .w-30 {
+        width: 80%;
+        margin: auto;
+    }
+}
