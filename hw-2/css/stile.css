@@ -2,7 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    background-image:url(/hw-2/img/bg.jpg);
+    background-image:url(../img/bg.jpg);
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-color: #0B1D26;
