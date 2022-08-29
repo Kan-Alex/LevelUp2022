@@ -4,12 +4,8 @@ for (const word of words) {
                        
     const interval = word.length - 2
 
-    function lastletter(arr) {
-        return arr[arr.length - 1]
-    }
-    
     if(word.length > 10) {
-        console.log(word[0] + interval + lastletter(word))
+        console.log(word[0] + interval + word[word.length - 1])
     }
 
 }
@@ -17,13 +13,9 @@ for (const word of words) {
 //     for (const word of this) {
                        
 //         const interval = word.length - 2
-    
-//         function lastletter(arr) {
-//             return arr[arr.length - 1]
-//         }
-        
+
 //         if(word.length > 10) {
-//             console.log(word[0] + interval + lastletter(word))
+//             console.log(word[0] + interval + word[word.length - 1])
 //         }
     
 //     }
