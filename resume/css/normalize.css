@@ -2,6 +2,9 @@
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
   } 
+  p {
+    margin: 0;
+  }
   body {
     margin: 0;
   }

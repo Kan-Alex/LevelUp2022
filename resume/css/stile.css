@@ -1,26 +1,50 @@
-.bg {
-    background: no-repeat fixed linear-gradient(50deg,#ff8686, #b0b7ff);
+body {
+    background-color: #fafafa;
 }
-li {
-    list-style: none;
+.w-30 {
+    width: 30%;
 }
-.t-center {
-    text-align: center;
+.w-70 {
+    width: 70%;
 }
-.btn-l {
-    background-color: #ced4da;
-    border: 2px solid #ced4da;
-    border-radius: 30px;
-    font-size: 16px;
-    padding: 15px 20px;
+section div div.w-30 {
+    background-color: #10529d;
+    color: white;
 }
-.btn-l:hover {
-    transition-duration: 0.6s;
-    background-color: white;
-    border: 2px solid #ced4da;
+section div.shadow-lg {
+    width: 800px;
+    height: 1000px;
+}
+.photo {
+    width: 150px;
+    height: 150px;
+    margin: 25px auto;
+    overflow: hidden;
+}
+.person-photo {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;  
+}
+.link {
+    width: 40%;
+    padding: 10px 40px;
+    border: 2px solid #10529d;
+    border-radius: 25px;
+    color: #10529d;
+    transition: background-color 0.5s, color 0.5s;
+}
+.link:hover {
+    background-color: #10529d;
+    color: white;
+}
+.title-1, .title-2, .title-3, .title-4, .title-5, .title-6 {
     cursor: pointer;
 }
-.btn-l:active{
-    transition-duration: 0.1s;
-    border: 2px solid gray;
+.content-1, .content-2, .content-3, .content-4, .content-5, .content-6 {
+    display: none;
+}
+.content-1.visible, .content-2.visible, .content-3.visible, .content-4.visible, .content-5.visible, .content-6.visible {
+    display: block;
 }
